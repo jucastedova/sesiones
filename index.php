@@ -12,9 +12,9 @@
   
     <form action="services/login.proc.php" method="POST">
       <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" placeholder="Your email..."><br>
+      <input type="email" id="email" name="email" placeholder="Your email..." required><br>
       <label for="psw">Password:</label><br>
-      <input type="password" id="psw" name="psw" placeholder="Your password..."><br><br>
+      <input type="password" id="psw" name="psw" placeholder="Your password..." required><br><br>
       <div class="container-submit">
         <input type="submit" value="Submit">
       </div>
